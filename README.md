@@ -43,9 +43,3 @@ python -m src.maxcut_ecommerce.cli --instance data/ecommerce_instance.json
 ```
 
 Saída esperada: peso máximo do corte e as duas partições de produtos encontradas.
-
-## Testes
-
-```bash
-python -m unittest discover -s tests -p "test_*.py"
-```
