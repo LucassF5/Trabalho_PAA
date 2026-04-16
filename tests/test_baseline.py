@@ -1,3 +1,4 @@
+import json
 import sys
 from pathlib import Path
 import tempfile
@@ -26,7 +27,13 @@ class BaselineTests(unittest.TestCase):
         self.assertEqual(side_a | side_b, set(instance.products))
         self.assertEqual(side_a & side_b, set())
 
-    def test_load_instance_rejects_unknown_product(self):
+        recomputed = 0.0
+        for relation in instance.relations:
+            if (relation.product_a in side_a) != (relation.product_b in side_a):
+                recomputed += relation.weight
+        self.assertEqual(recomputed, best_weight)
+
+    def test_load_instance_raises_value_error_for_unknown_product(self):
         invalid = {
             "products": ["A", "B"],
             "relations": [
@@ -35,7 +42,7 @@ class BaselineTests(unittest.TestCase):
         }
 
         with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as tmp:
-            tmp.write(__import__("json").dumps(invalid))
+            tmp.write(json.dumps(invalid))
             tmp_path = tmp.name
 
         try:

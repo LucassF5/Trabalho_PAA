@@ -24,7 +24,7 @@ def load_instance(path: str | Path) -> EcommerceInstance:
 
     products = tuple(data.get("products", []))
     if len(products) < 2:
-        raise ValueError("A instância precisa de pelo menos dois produtos.")
+        raise ValueError("A instância precisa ter dois ou mais produtos.")
 
     known_products = set(products)
     relations: list[Relation] = []
