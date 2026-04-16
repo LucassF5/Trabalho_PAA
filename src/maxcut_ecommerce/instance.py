@@ -10,7 +10,6 @@ class Relation:
     product_a: str
     product_b: str
     weight: float
-    rationale: str
 
 
 @dataclass(frozen=True)
@@ -33,7 +32,6 @@ def load_instance(path: str | Path) -> EcommerceInstance:
             product_a=item["product_a"],
             product_b=item["product_b"],
             weight=float(item["weight"]),
-            rationale=item.get("rationale", ""),
         )
 
         if relation.product_a not in known_products or relation.product_b not in known_products:

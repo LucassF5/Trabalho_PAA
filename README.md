@@ -30,7 +30,6 @@ Este repositório implementa o problema de **Corte Máximo (Max-Cut)** aplicado 
       "product_a": "Produto A",
       "product_b": "Produto B",
       "weight": 3.5,
-      "rationale": "motivo/descrição da relação"
     }
   ]
 }
