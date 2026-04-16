@@ -1,0 +1,55 @@
+{
+  "description": "Relações de co-compra entre produtos de ecommerce. O peso representa intensidade de compra conjunta.",
+  "weight_note": "Peso em escala contínua >= 0. Quanto maior, mais forte a relação histórica de compra conjunta.",
+  "products": [
+    "Smartphone",
+    "Capa",
+    "Fone Bluetooth",
+    "Carregador",
+    "Película"
+  ],
+  "relations": [
+    {
+      "product_a": "Smartphone",
+      "product_b": "Capa",
+      "weight": 9.0,
+      "rationale": "Frequentemente comprados juntos para proteção inicial."
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Fone Bluetooth",
+      "weight": 7.5,
+      "rationale": "Acessório comum na compra do aparelho."
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Carregador",
+      "weight": 6.0,
+      "rationale": "Compra complementar por potência/cabo adicional."
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Película",
+      "weight": 8.2,
+      "rationale": "Proteção de tela adquirida com alta recorrência."
+    },
+    {
+      "product_a": "Capa",
+      "product_b": "Película",
+      "weight": 5.8,
+      "rationale": "Itens de proteção comprados no mesmo carrinho."
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Carregador",
+      "weight": 3.4,
+      "rationale": "Acessórios eletrônicos em compras agrupadas."
+    },
+    {
+      "product_a": "Capa",
+      "product_b": "Carregador",
+      "weight": 2.0,
+      "rationale": "Relação complementar menos frequente."
+    }
+  ]
+}
