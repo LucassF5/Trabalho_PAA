@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import time
 from pathlib import Path
 
 from .baseline import brute_force_max_cut
@@ -14,7 +15,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--instance",
         type=Path,
-        default=Path("data/ecommerce_instance.json"),
+        default=Path("data/small_instance.json"),
         help="Caminho para o arquivo JSON da instância.",
     )
     return parser
@@ -23,13 +24,17 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> None:
     args = build_parser().parse_args()
     instance = load_instance(args.instance)
+    
+    start = time.perf_counter()
     best_weight, side_a, side_b = brute_force_max_cut(instance)
+    elapsed = time.perf_counter() - start
 
     print(f"Instância: {args.instance}")
     print(f"Produtos: {len(instance.products)} | Relações: {len(instance.relations)}")
     print(f"Peso máximo do corte: {best_weight:.2f}")
     print(f"Partição A: {sorted(side_a)}")
     print(f"Partição B: {sorted(side_b)}")
+    print(f"Tempo de execução: {elapsed:.4f} segundos")
 
 
 if __name__ == "__main__":

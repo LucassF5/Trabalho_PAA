@@ -16,7 +16,6 @@ def _cut_weight(instance: EcommerceInstance, side_a: set[str]) -> float:
 
 
 def brute_force_max_cut(instance: EcommerceInstance) -> tuple[float, set[str], set[str]]:
-    """Resolve Max-Cut exatamente por força bruta (complexidade O(2^n))."""
     products = instance.products
     root = products[0]
 
