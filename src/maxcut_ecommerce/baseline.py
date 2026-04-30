@@ -15,12 +15,13 @@ def _cut_weight(instance: EcommerceInstance, side_a: set[str]) -> float:
     return weight
 
 
-def brute_force_max_cut(instance: EcommerceInstance) -> tuple[float, set[str], set[str]]:
+def brute_force_max_cut(instance: EcommerceInstance) -> tuple[float, set[str], set[str], int]:
     products = instance.products
     root = products[0]
 
     best_weight = float("-inf")
     best_side_a: set[str] = {root}
+    iterations = 0
 
     for choice in cartesian_product((False, True), repeat=len(products) - 1):
         side_a = {root}
@@ -29,9 +30,10 @@ def brute_force_max_cut(instance: EcommerceInstance) -> tuple[float, set[str], s
                 side_a.add(prod_name)
 
         current = _cut_weight(instance, side_a)
+        iterations += 1
         if current > best_weight:
             best_weight = current
             best_side_a = side_a
 
     side_b = set(products) - best_side_a
-    return best_weight, best_side_a, side_b
+    return best_weight, best_side_a, side_b, iterations

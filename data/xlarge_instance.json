@@ -1,0 +1,498 @@
+{
+  "description": "Instância extra grande: 30 produtos com rede densa de relações para teste de escalabilidade.",
+  "weight_note": "Peso em escala contínua >= 0. Quanto maior, mais forte a relação histórica de compra conjunta.",
+  "products": [
+    "Smartphone",
+    "Capa Smartphone",
+    "Fone Bluetooth",
+    "Carregador Rápido",
+    "Película Vidro",
+    "Powerbank",
+    "Cabo USB-C",
+    "Relógio Inteligente",
+    "Tablet",
+    "Teclado Bluetooth",
+    "Mouse Wireless",
+    "Monitor 27\"",
+    "Webcam HD",
+    "Headset Gamer",
+    "Processador",
+    "Memória RAM",
+    "Placa Mãe",
+    "Cooler CPU",
+    "SSD Externo",
+    "Câmera Digital",
+    "Cartão Memória",
+    "Mochila Notebook",
+    "Estuche Fones",
+    "Hub USB",
+    "Carregador Sem Fio",
+    "Impressora",
+    "Scanner",
+    "Roteador WiFi",
+    "Modem",
+    "Suporte Monitor"
+  ],
+  "relations": [
+    {
+      "product_a": "Smartphone",
+      "product_b": "Teclado Bluetooth",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Tablet",
+      "weight": 7.4
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Câmera Digital",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Processador",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Fone Bluetooth",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Smartphone",
+      "weight": 3.6
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Carregador Rápido",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Tablet",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Memória RAM",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Teclado Bluetooth",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Smartphone",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Hub USB",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Processador",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Cartão Memória",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Teclado Bluetooth",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Scanner",
+      "weight": 2.6
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Carregador Sem Fio",
+      "weight": 4.3
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Memória RAM",
+      "weight": 7.0
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "SSD Externo",
+      "weight": 9.1
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Relógio Inteligente",
+      "weight": 8.2
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Tablet",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Teclado Bluetooth",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Webcam HD",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Suporte Monitor",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Relógio Inteligente",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Estuche Fones",
+      "weight": 3.4
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Teclado Bluetooth",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Hub USB",
+      "weight": 3.3
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Teclado Bluetooth",
+      "weight": 3.8
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "SSD Externo",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Tablet",
+      "weight": 4.5
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Processador",
+      "weight": 10.0
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Webcam HD",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Relógio Inteligente",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Película Vidro",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Powerbank",
+      "weight": 5.4
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Suporte Monitor",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "SSD Externo",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Teclado Bluetooth",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Smartphone",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Tablet",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Modem",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Mochila Notebook",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Teclado Bluetooth",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Roteador WiFi",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Smartphone",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Relógio Inteligente",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Suporte Monitor",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Câmera Digital",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Fone Bluetooth",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Impressora",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Memória RAM",
+      "weight": 9.6
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Tablet",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Hub USB",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Teclado Bluetooth",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Webcam HD",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Estuche Fones",
+      "weight": 3.8
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Mochila Notebook",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Monitor 27\"",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "SSD Externo",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Relógio Inteligente",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Smartphone",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Fone Bluetooth",
+      "weight": 4.6
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Hub USB",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Mochila Notebook",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Película Vidro",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "SSD Externo",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Relógio Inteligente",
+      "weight": 3.5
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Mochila Notebook",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Headset Gamer",
+      "weight": 7.4
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Monitor 27\"",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Processador",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Modem",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Scanner",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Modem",
+      "weight": 5.4
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Relógio Inteligente",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Impressora",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Processador",
+      "weight": 2.4
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Scanner",
+      "weight": 10.0
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Modem",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Cooler CPU",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Powerbank",
+      "weight": 9.2
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Memória RAM",
+      "weight": 3.3
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Roteador WiFi",
+      "weight": 2.0
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Webcam HD",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Scanner",
+      "product_b": "Teclado Bluetooth",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Roteador WiFi",
+      "product_b": "SSD Externo",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Modem",
+      "product_b": "Placa Mãe",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Modem",
+      "product_b": "Roteador WiFi",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Modem",
+      "product_b": "Suporte Monitor",
+      "weight": 8.9
+    },
+    {
+      "product_a": "Modem",
+      "product_b": "Powerbank",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Modem",
+      "product_b": "Scanner",
+      "weight": 9.5
+    }
+  ]
+}

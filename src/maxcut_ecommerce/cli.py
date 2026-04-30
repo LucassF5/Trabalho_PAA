@@ -26,7 +26,7 @@ def main() -> None:
     instance = load_instance(args.instance)
     
     start = time.perf_counter()
-    best_weight, side_a, side_b = brute_force_max_cut(instance)
+    best_weight, side_a, side_b, iterations = brute_force_max_cut(instance)
     elapsed = time.perf_counter() - start
 
     print(f"Instância: {args.instance}")
@@ -34,7 +34,10 @@ def main() -> None:
     print(f"Peso máximo do corte: {best_weight:.2f}")
     print(f"Partição A: {sorted(side_a)}")
     print(f"Partição B: {sorted(side_b)}")
+    print(f"Iterações: {iterations}")
     print(f"Tempo de execução: {elapsed:.4f} segundos")
+    if iterations > 0:
+        print(f"Tempo por iteração: {elapsed/iterations*1000:.4f} ms")
 
 
 if __name__ == "__main__":
