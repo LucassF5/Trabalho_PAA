@@ -1,3 +1,11 @@
+"""Algoritmos para o problema Max-Cut.
+
+Contém:
+  - compute_cut_weight : verificador polinomial — O(|E|).
+  - verify_cut         : versão de decisão (corte ≥ k?).
+  - brute_force_max_cut: solução exata por força bruta — O(2^n · |E|).
+"""
+
 from __future__ import annotations
 
 from itertools import product as cartesian_product
@@ -5,21 +13,20 @@ from itertools import product as cartesian_product
 from .instance import EcommerceInstance
 
 
-def compute_cut_weight(instance: EcommerceInstance, side_a: set[str]) -> float:
-    """Calcula o peso total das arestas que cruzam o corte (S, V\\S).
+# ---------------------------------------------------------------------------
+# Verificador polinomial  (prova de que Max-Cut ∈ NP)
+# ---------------------------------------------------------------------------
 
-    Este é o **verificador polinomial** que demonstra Max-Cut ∈ NP:
-    dado um certificado (partição ``side_a``), percorre todas as arestas
-    em O(|E|) e soma os pesos daquelas que conectam vértices em lados
-    opostos.
+def compute_cut_weight(instance: EcommerceInstance, side_a: set[str]) -> float:
+    """Soma os pesos das arestas que cruzam o corte (S, V\\S).
+
+    Complexidade: O(|E|) — percorre cada aresta uma única vez.
     """
-    weight = 0.0
-    for relation in instance.relations:
-        a_in = relation.product_a in side_a
-        b_in = relation.product_b in side_a
-        if a_in != b_in:
-            weight += relation.weight
-    return weight
+    return sum(
+        rel.weight
+        for rel in instance.relations
+        if (rel.product_a in side_a) != (rel.product_b in side_a)
+    )
 
 
 def verify_cut(
@@ -29,44 +36,47 @@ def verify_cut(
 ) -> tuple[bool, float]:
     """Verificador polinomial para a versão de decisão do Max-Cut.
 
-    Dados:
-      - Uma instância (grafo ponderado de produtos).
-      - Um certificado (partição ``side_a``).
-      - Um limiar ``threshold`` (k).
+    Dado um certificado (partição *side_a*) e um limiar *k*, retorna
+    ``(True, peso)`` se o peso do corte ≥ k.
 
-    Retorna ``(True, peso)`` se o peso do corte ≥ k, provando que
-    o certificado é válido em tempo O(|E|).  Isso demonstra que
-    Max-Cut ∈ NP.
+    Complexidade: O(|E|) — confirma a resposta em tempo polinomial,
+    demonstrando que Max-Cut ∈ NP.
     """
-    cut_weight = compute_cut_weight(instance, side_a)
-    return cut_weight >= threshold, cut_weight
+    weight = compute_cut_weight(instance, side_a)
+    return weight >= threshold, weight
 
+
+# ---------------------------------------------------------------------------
+# Solução exata — força bruta
+# ---------------------------------------------------------------------------
 
 def brute_force_max_cut(
     instance: EcommerceInstance,
 ) -> tuple[float, set[str], set[str], int]:
-    """Resolve Max-Cut por força bruta, enumerando 2^(n-1) partições.
+    """Enumera todas as 2^(n−1) partições e retorna o corte de peso máximo.
 
-    Complexidade: O(2^n · |E|) — exponencial, consistente com a
-    NP-completude do problema.
+    Retorna: (peso_máximo, partição_A, partição_B, total_iterações).
+    Complexidade: O(2^n · |E|) — exponencial.
     """
     products = instance.products
+    # Fixa o primeiro produto no lado A para evitar partições simétricas.
     root = products[0]
 
     best_weight = float("-inf")
     best_side_a: set[str] = {root}
     iterations = 0
 
-    for choice in cartesian_product((False, True), repeat=len(products) - 1):
+    for bits in cartesian_product((False, True), repeat=len(products) - 1):
         side_a = {root}
-        for product_name, goes_to_a in zip(products[1:], choice):
-            if goes_to_a:
-                side_a.add(product_name)
+        for name, in_a in zip(products[1:], bits):
+            if in_a:
+                side_a.add(name)
 
-        current_weight = compute_cut_weight(instance, side_a)
+        weight = compute_cut_weight(instance, side_a)
         iterations += 1
-        if current_weight > best_weight:
-            best_weight = current_weight
+
+        if weight > best_weight:
+            best_weight = weight
             best_side_a = side_a
 
     side_b = set(products) - best_side_a
