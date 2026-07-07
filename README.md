@@ -305,9 +305,12 @@ python3 -m src.maxcut_ecommerce.cli --instance data/medium_instance.json
 
 # Comparação entre força bruta e heurística nas instâncias do projeto
 python3 run_experiments.py
+
+# Apenas heurística, sem executar força bruta
+python3 run_experiments.py --heuristic-only
 ```
 
-O script `run_experiments.py` sempre executa a heurística. A força bruta é executada apenas para instâncias com até 25 produtos; acima disso, o script registra o número de partições teórico e pula a enumeração completa por inviabilidade prática.
+O script `run_experiments.py` sempre executa a heurística. Por padrão, a força bruta é executada apenas para instâncias com até 25 produtos; acima disso, o script registra o número de partições teórico e pula a enumeração completa por inviabilidade prática. Use `--heuristic-only` para pular a força bruta em todas as instâncias.
 
 Ao final, os resultados são salvos em `experiment_results.json`.
 
