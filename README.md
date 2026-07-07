@@ -8,8 +8,9 @@
 4. [Regra de ponderação dos pesos](#regra-de-ponderação-dos-pesos)
 5. [Estrutura do repositório](#estrutura-do-repositório)
 6. [Formato da instância](#formato-da-instância-json)
-7. [Execução](#execução)
-8. [Exemplo de saída](#exemplo-de-saída)
+7. [Algoritmos implementados](#algoritmos-implementados)
+8. [Execução](#execução)
+9. [Exemplo de saída](#exemplo-de-saída)
 
 ---
 
@@ -221,6 +222,7 @@ peso = compute_relation_weight(
 ```
 Trabalho_PAA/
 ├── README.md
+├── run_experiments.py          # Executa comparação entre força bruta e heurística
 ├── data/
 │   ├── small_instance.json      # 15 produtos, 61 relações
 │   ├── medium_instance.json     # 22 produtos, 46 relações
@@ -231,6 +233,7 @@ Trabalho_PAA/
         ├── __init__.py          # Exports públicos do pacote
         ├── instance.py          # Modelagem: Relation, EcommerceInstance, load, peso
         ├── baseline.py          # Algoritmos: verificador polinomial + força bruta
+        ├── heuristic.py         # Busca local com reinícios aleatórios
         └── cli.py               # Interface de linha de comando
 ```
 
@@ -238,7 +241,21 @@ Trabalho_PAA/
 |---|---|
 | `instance.py` | Estruturas de dados (`Relation`, `EcommerceInstance`), carregamento de JSON, regra de ponderação (`compute_relation_weight`) |
 | `baseline.py` | Verificador polinomial (`verify_cut`), cálculo do corte (`compute_cut_weight`), solução exata (`brute_force_max_cut`) |
+| `heuristic.py` | Solução aproximada por busca local com múltiplos reinícios aleatórios (`local_search_max_cut`) |
 | `cli.py` | Parsing de argumentos e exibição formatada dos resultados |
+
+---
+
+## Algoritmos implementados
+
+O projeto contém duas abordagens para resolver Max-Cut:
+
+| Abordagem | Função | Tipo de resposta | Complexidade | Uso recomendado |
+|---|---|---|---|---|
+| Força bruta | `brute_force_max_cut` | Exata | $O(2^n \cdot \|E\|)$ | Instâncias pequenas/médias, quando é viável enumerar as partições |
+| Busca local com reinícios | `local_search_max_cut` | Aproximada | $O(r \cdot rodadas \cdot \|E\|)$ | Instâncias grandes, quando a força bruta fica inviável |
+
+A força bruta é importante para demonstrar o crescimento exponencial do problema e obter o ótimo em instâncias pequenas. A heurística troca produtos de lado enquanto houver melhoria no corte e repete o processo a partir de várias partições iniciais aleatórias, buscando uma solução boa em tempo muito menor.
 
 ---
 
@@ -285,7 +302,14 @@ python3 -m src.maxcut_ecommerce.cli
 
 # Instância específica
 python3 -m src.maxcut_ecommerce.cli --instance data/medium_instance.json
+
+# Comparação entre força bruta e heurística nas instâncias do projeto
+python3 run_experiments.py
 ```
+
+O script `run_experiments.py` sempre executa a heurística. A força bruta é executada apenas para instâncias com até 25 produtos; acima disso, o script registra o número de partições teórico e pula a enumeração completa por inviabilidade prática.
+
+Ao final, os resultados são salvos em `experiment_results.json`.
 
 ## Exemplo de saída
 
