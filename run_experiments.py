@@ -17,6 +17,9 @@ instances = {
     "medium": "data/medium_instance.json",
     "large": "data/large_instance.json",
     "xlarge": "data/xlarge_instance.json",
+    "xxlarge": "data/xxlarge_instance.json",
+    "huge": "data/huge_instance.json",
+    "massive": "data/massive_instance.json",
 }
 
 
@@ -66,6 +69,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--heuristic-only",
+        "--heuristice-only",
         "--skip-baseline",
         action="store_true",
         help="Executa apenas a heuristica, sem rodar a forca bruta.",
@@ -85,12 +89,18 @@ def main() -> None:
         theoretical_iterations = 2 ** (n - 1)
         _print_instance_header(name, path, n, m)
 
-        entry = {"n": n, "m": m}
+        entry = {
+            "n": n,
+            "m": m,
+            "density": m / (n * (n - 1) / 2) if n > 1 else 0,
+        }
 
         # Heuristic (always run)
         h = local_search_max_cut(inst, restarts=30, seed=42)
         entry["heuristic_weight"] = h.weight
         entry["heuristic_time"] = h.time_seconds
+        entry["heuristic_moves"] = h.total_moves
+        entry["heuristic_restarts"] = h.restarts
         _print_heuristic_result(h.weight, h.time_seconds)
 
         # Baseline (skip by flag or if too large)

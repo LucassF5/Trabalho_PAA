@@ -1,0 +1,2158 @@
+{
+  "description": "Instância gerada com 60 produtos e 418 relações",
+  "weight_note": "Peso em escala contínua [1.0, 10.0]. Grafo aleatório.",
+  "products": [
+    "Smartphone",
+    "Capa Smartphone",
+    "Fone Bluetooth",
+    "Carregador Rápido",
+    "Película Vidro",
+    "Powerbank",
+    "Cabo USB-C",
+    "Relógio Inteligente",
+    "Tablet",
+    "Teclado Bluetooth",
+    "Mouse Wireless",
+    "Monitor 27\"",
+    "Webcam HD",
+    "Headset Gamer",
+    "Processador",
+    "Memória RAM",
+    "Placa Mãe",
+    "Cooler CPU",
+    "SSD Externo",
+    "Câmera Digital",
+    "Cartão Memória",
+    "Mochila Notebook",
+    "Estuche Fones",
+    "Hub USB",
+    "Carregador Sem Fio",
+    "Impressora",
+    "Scanner",
+    "Roteador Wi-Fi",
+    "Switch Rede",
+    "Cabo Ethernet",
+    "Fone De Ouvido",
+    "Microfone USB",
+    "Tripé Câmera",
+    "Lente Externa",
+    "Estabilizador Gimbal",
+    "Bateria Externa",
+    "Cooler Laptop",
+    "Teclado Mecânico",
+    "Mouse Gamer",
+    "Mousepad Grande",
+    "Webcam 4K",
+    "Microfone Condensador",
+    "Interface Áudio",
+    "Monitor 4K",
+    "HDMI 2.1",
+    "DisplayPort",
+    "Adaptador USB-C",
+    "Hub USB-C",
+    "SSD NVMe",
+    "Gabinete Gaming",
+    "Ventoinhas RGB",
+    "Pasta Térmica",
+    "Produto_53",
+    "Produto_54",
+    "Produto_55",
+    "Produto_56",
+    "Produto_57",
+    "Produto_58",
+    "Produto_59",
+    "Produto_60"
+  ],
+  "relations": [
+    {
+      "product_a": "Smartphone",
+      "product_b": "Fone Bluetooth",
+      "weight": 3.5
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Carregador Rápido",
+      "weight": 7.6
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Cabo USB-C",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Relógio Inteligente",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Teclado Bluetooth",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Webcam HD",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Processador",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Cooler CPU",
+      "weight": 9.6
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Câmera Digital",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Lente Externa",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Bateria Externa",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Cooler Laptop",
+      "weight": 3.5
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Webcam 4K",
+      "weight": 3.4
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "HDMI 2.1",
+      "weight": 7.6
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "DisplayPort",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Produto_53",
+      "weight": 1.3
+    },
+    {
+      "product_a": "Smartphone",
+      "product_b": "Produto_56",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Powerbank",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Mouse Wireless",
+      "weight": 10.0
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Webcam HD",
+      "weight": 1.4
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Headset Gamer",
+      "weight": 6.6
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Placa Mãe",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Mochila Notebook",
+      "weight": 7.5
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Scanner",
+      "weight": 4.9
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Tripé Câmera",
+      "weight": 9.2
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Teclado Mecânico",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Microfone Condensador",
+      "weight": 3.9
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Interface Áudio",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Adaptador USB-C",
+      "weight": 8.9
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "SSD NVMe",
+      "weight": 5.4
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Gabinete Gaming",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Pasta Térmica",
+      "weight": 5.3
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Produto_57",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Capa Smartphone",
+      "product_b": "Produto_59",
+      "weight": 3.8
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Cabo USB-C",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Teclado Bluetooth",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Mouse Wireless",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Monitor 27\"",
+      "weight": 9.1
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Headset Gamer",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Memória RAM",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Mochila Notebook",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Switch Rede",
+      "weight": 4.6
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Microfone USB",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Bateria Externa",
+      "weight": 9.3
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Mousepad Grande",
+      "weight": 10.0
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "HDMI 2.1",
+      "weight": 5.4
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "DisplayPort",
+      "weight": 4.6
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Adaptador USB-C",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Fone Bluetooth",
+      "product_b": "Produto_57",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Powerbank",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Tablet",
+      "weight": 9.6
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Teclado Bluetooth",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Webcam HD",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Processador",
+      "weight": 6.4
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Cartão Memória",
+      "weight": 7.4
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Mochila Notebook",
+      "weight": 4.6
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Scanner",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Cabo Ethernet",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Bateria Externa",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Webcam 4K",
+      "weight": 8.4
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "HDMI 2.1",
+      "weight": 2.0
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "DisplayPort",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Gabinete Gaming",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Produto_55",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Carregador Rápido",
+      "product_b": "Produto_57",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Relógio Inteligente",
+      "weight": 1.7
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Headset Gamer",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Câmera Digital",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Cartão Memória",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Carregador Sem Fio",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Cabo Ethernet",
+      "weight": 7.6
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Teclado Mecânico",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Mousepad Grande",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Monitor 4K",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "HDMI 2.1",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Produto_54",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Produto_55",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Película Vidro",
+      "product_b": "Produto_57",
+      "weight": 4.9
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Monitor 27\"",
+      "weight": 9.3
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Cooler CPU",
+      "weight": 7.0
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 3.6
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Webcam 4K",
+      "weight": 5.3
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Monitor 4K",
+      "weight": 1.8
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Ventoinhas RGB",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Pasta Térmica",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Produto_55",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Produto_57",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Produto_59",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Powerbank",
+      "product_b": "Produto_60",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Tablet",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Teclado Bluetooth",
+      "weight": 9.6
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Monitor 27\"",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Cabo Ethernet",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 3.6
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Mouse Gamer",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Microfone Condensador",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "HDMI 2.1",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Pasta Térmica",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Cabo USB-C",
+      "product_b": "Produto_60",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Teclado Bluetooth",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Webcam HD",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Headset Gamer",
+      "weight": 6.6
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Processador",
+      "weight": 4.5
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Placa Mãe",
+      "weight": 6.8
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Cooler CPU",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "SSD Externo",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Câmera Digital",
+      "weight": 3.9
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Impressora",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Bateria Externa",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Mouse Gamer",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Webcam 4K",
+      "weight": 6.5
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Interface Áudio",
+      "weight": 8.4
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "HDMI 2.1",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Ventoinhas RGB",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Produto_53",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Relógio Inteligente",
+      "product_b": "Produto_56",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Headset Gamer",
+      "weight": 9.6
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Cabo Ethernet",
+      "weight": 8.9
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Fone De Ouvido",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Lente Externa",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Webcam 4K",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "Microfone Condensador",
+      "weight": 7.5
+    },
+    {
+      "product_a": "Tablet",
+      "product_b": "SSD NVMe",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Mouse Wireless",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Monitor 27\"",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Headset Gamer",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Câmera Digital",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Cartão Memória",
+      "weight": 2.6
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Mochila Notebook",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Scanner",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Tripé Câmera",
+      "weight": 1.5
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Teclado Mecânico",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Mouse Gamer",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Interface Áudio",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "DisplayPort",
+      "weight": 5.7
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Produto_56",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Produto_58",
+      "weight": 2.6
+    },
+    {
+      "product_a": "Teclado Bluetooth",
+      "product_b": "Produto_59",
+      "weight": 1.0
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Headset Gamer",
+      "weight": 7.4
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Tripé Câmera",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Teclado Mecânico",
+      "weight": 1.4
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Microfone Condensador",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "SSD NVMe",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Produto_53",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Mouse Wireless",
+      "product_b": "Produto_56",
+      "weight": 4.1
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 4.3
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Microfone USB",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Bateria Externa",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Teclado Mecânico",
+      "weight": 2.4
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Webcam 4K",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Monitor 4K",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Monitor 27\"",
+      "product_b": "Ventoinhas RGB",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Cartão Memória",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Scanner",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Switch Rede",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Cabo Ethernet",
+      "weight": 7.7
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Teclado Mecânico",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Webcam HD",
+      "product_b": "Hub USB-C",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Processador",
+      "weight": 1.6
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Cartão Memória",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Impressora",
+      "weight": 8.2
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Switch Rede",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Microfone USB",
+      "weight": 1.7
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 9.2
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Bateria Externa",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Mouse Gamer",
+      "weight": 8.2
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Microfone Condensador",
+      "weight": 5.0
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "SSD NVMe",
+      "weight": 4.5
+    },
+    {
+      "product_a": "Headset Gamer",
+      "product_b": "Ventoinhas RGB",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Memória RAM",
+      "weight": 6.5
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Bateria Externa",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Teclado Mecânico",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Gabinete Gaming",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Ventoinhas RGB",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Processador",
+      "product_b": "Produto_59",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Mochila Notebook",
+      "weight": 3.1
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Estuche Fones",
+      "weight": 9.0
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Impressora",
+      "weight": 1.6
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Fone De Ouvido",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Lente Externa",
+      "weight": 9.0
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Webcam 4K",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Microfone Condensador",
+      "weight": 5.4
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "HDMI 2.1",
+      "weight": 4.3
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "SSD NVMe",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Produto_54",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Memória RAM",
+      "product_b": "Produto_60",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Cooler CPU",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Câmera Digital",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Cartão Memória",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Hub USB",
+      "weight": 9.1
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Carregador Sem Fio",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Impressora",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Switch Rede",
+      "weight": 1.1
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Fone De Ouvido",
+      "weight": 3.9
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Microfone USB",
+      "weight": 1.5
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Mouse Gamer",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Webcam 4K",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "DisplayPort",
+      "weight": 5.3
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Ventoinhas RGB",
+      "weight": 1.7
+    },
+    {
+      "product_a": "Placa Mãe",
+      "product_b": "Produto_53",
+      "weight": 3.5
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "SSD Externo",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Hub USB",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Carregador Sem Fio",
+      "weight": 4.1
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Fone De Ouvido",
+      "weight": 9.3
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Microfone USB",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Tripé Câmera",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Mousepad Grande",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "SSD NVMe",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Cooler CPU",
+      "product_b": "Gabinete Gaming",
+      "weight": 2.0
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Câmera Digital",
+      "weight": 9.4
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Estuche Fones",
+      "weight": 7.3
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Impressora",
+      "weight": 8.8
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Switch Rede",
+      "weight": 6.7
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Cabo Ethernet",
+      "weight": 7.7
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Fone De Ouvido",
+      "weight": 4.8
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Cooler Laptop",
+      "weight": 1.5
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Teclado Mecânico",
+      "weight": 6.6
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "DisplayPort",
+      "weight": 4.9
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Ventoinhas RGB",
+      "weight": 4.6
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Produto_53",
+      "weight": 3.7
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Produto_54",
+      "weight": 2.2
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Produto_57",
+      "weight": 7.7
+    },
+    {
+      "product_a": "SSD Externo",
+      "product_b": "Produto_58",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Estuche Fones",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Hub USB",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Fone De Ouvido",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Cooler Laptop",
+      "weight": 8.6
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Teclado Mecânico",
+      "weight": 6.3
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Monitor 4K",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "HDMI 2.1",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Ventoinhas RGB",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Pasta Térmica",
+      "weight": 6.4
+    },
+    {
+      "product_a": "Câmera Digital",
+      "product_b": "Produto_55",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Scanner",
+      "weight": 1.6
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Fone De Ouvido",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Lente Externa",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Hub USB-C",
+      "weight": 1.6
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "SSD NVMe",
+      "weight": 9.1
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Produto_53",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Cartão Memória",
+      "product_b": "Produto_57",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Impressora",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 4.1
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Produto_54",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Produto_57",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Produto_58",
+      "weight": 8.6
+    },
+    {
+      "product_a": "Mochila Notebook",
+      "product_b": "Produto_59",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Carregador Sem Fio",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Scanner",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 8.5
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Fone De Ouvido",
+      "weight": 4.9
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Lente Externa",
+      "weight": 5.0
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Produto_53",
+      "weight": 3.3
+    },
+    {
+      "product_a": "Estuche Fones",
+      "product_b": "Produto_57",
+      "weight": 8.6
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Scanner",
+      "weight": 4.9
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Switch Rede",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Fone De Ouvido",
+      "weight": 1.5
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Tripé Câmera",
+      "weight": 10.0
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Mouse Gamer",
+      "weight": 3.6
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Microfone Condensador",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Monitor 4K",
+      "weight": 1.7
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Gabinete Gaming",
+      "weight": 3.6
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Pasta Térmica",
+      "weight": 4.8
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Produto_55",
+      "weight": 9.1
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Produto_57",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Hub USB",
+      "product_b": "Produto_58",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Impressora",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Switch Rede",
+      "weight": 5.7
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Teclado Mecânico",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "HDMI 2.1",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Adaptador USB-C",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Pasta Térmica",
+      "weight": 8.0
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Produto_55",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Carregador Sem Fio",
+      "product_b": "Produto_56",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Roteador Wi-Fi",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Microfone USB",
+      "weight": 4.3
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Monitor 4K",
+      "weight": 6.4
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Hub USB-C",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Produto_54",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Impressora",
+      "product_b": "Produto_60",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Scanner",
+      "product_b": "Microfone USB",
+      "weight": 6.5
+    },
+    {
+      "product_a": "Scanner",
+      "product_b": "Lente Externa",
+      "weight": 1.6
+    },
+    {
+      "product_a": "Scanner",
+      "product_b": "Hub USB-C",
+      "weight": 2.0
+    },
+    {
+      "product_a": "Scanner",
+      "product_b": "Produto_60",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "Microfone USB",
+      "weight": 7.1
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "Bateria Externa",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "Monitor 4K",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "HDMI 2.1",
+      "weight": 8.1
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "DisplayPort",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "Ventoinhas RGB",
+      "weight": 3.8
+    },
+    {
+      "product_a": "Roteador Wi-Fi",
+      "product_b": "Produto_57",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Lente Externa",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Cooler Laptop",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Teclado Mecânico",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Hub USB-C",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Ventoinhas RGB",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Pasta Térmica",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Switch Rede",
+      "product_b": "Produto_58",
+      "weight": 1.4
+    },
+    {
+      "product_a": "Cabo Ethernet",
+      "product_b": "Interface Áudio",
+      "weight": 1.5
+    },
+    {
+      "product_a": "Cabo Ethernet",
+      "product_b": "DisplayPort",
+      "weight": 6.5
+    },
+    {
+      "product_a": "Cabo Ethernet",
+      "product_b": "Pasta Térmica",
+      "weight": 4.3
+    },
+    {
+      "product_a": "Cabo Ethernet",
+      "product_b": "Produto_57",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Microfone USB",
+      "weight": 8.8
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Tripé Câmera",
+      "weight": 3.9
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Webcam 4K",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Monitor 4K",
+      "weight": 4.2
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "HDMI 2.1",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Produto_58",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Fone De Ouvido",
+      "product_b": "Produto_59",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Microfone USB",
+      "product_b": "Bateria Externa",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Microfone USB",
+      "product_b": "Microfone Condensador",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Microfone USB",
+      "product_b": "Monitor 4K",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Microfone USB",
+      "product_b": "Pasta Térmica",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Webcam 4K",
+      "weight": 5.3
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Hub USB-C",
+      "weight": 6.7
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Ventoinhas RGB",
+      "weight": 7.1
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Pasta Térmica",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Produto_53",
+      "weight": 1.2
+    },
+    {
+      "product_a": "Tripé Câmera",
+      "product_b": "Produto_55",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Estabilizador Gimbal",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Bateria Externa",
+      "weight": 3.9
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Mousepad Grande",
+      "weight": 9.2
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Hub USB-C",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Gabinete Gaming",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Produto_53",
+      "weight": 7.3
+    },
+    {
+      "product_a": "Lente Externa",
+      "product_b": "Produto_59",
+      "weight": 7.1
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Adaptador USB-C",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Gabinete Gaming",
+      "weight": 6.5
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Pasta Térmica",
+      "weight": 7.0
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Produto_55",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Produto_57",
+      "weight": 7.9
+    },
+    {
+      "product_a": "Estabilizador Gimbal",
+      "product_b": "Produto_58",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "Mousepad Grande",
+      "weight": 9.7
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "Monitor 4K",
+      "weight": 6.2
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "SSD NVMe",
+      "weight": 8.9
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "Gabinete Gaming",
+      "weight": 9.3
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "Produto_58",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Bateria Externa",
+      "product_b": "Produto_59",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Monitor 4K",
+      "weight": 2.0
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "HDMI 2.1",
+      "weight": 5.1
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Adaptador USB-C",
+      "weight": 7.6
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Ventoinhas RGB",
+      "weight": 8.7
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Produto_55",
+      "weight": 7.0
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Produto_56",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Produto_58",
+      "weight": 3.3
+    },
+    {
+      "product_a": "Cooler Laptop",
+      "product_b": "Produto_59",
+      "weight": 7.8
+    },
+    {
+      "product_a": "Teclado Mecânico",
+      "product_b": "Webcam 4K",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Teclado Mecânico",
+      "product_b": "Interface Áudio",
+      "weight": 2.1
+    },
+    {
+      "product_a": "Teclado Mecânico",
+      "product_b": "Gabinete Gaming",
+      "weight": 9.2
+    },
+    {
+      "product_a": "Teclado Mecânico",
+      "product_b": "Produto_53",
+      "weight": 2.2
+    },
+    {
+      "product_a": "Teclado Mecânico",
+      "product_b": "Produto_54",
+      "weight": 7.7
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "Mousepad Grande",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "Interface Áudio",
+      "weight": 5.0
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "HDMI 2.1",
+      "weight": 6.1
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "DisplayPort",
+      "weight": 5.9
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "SSD NVMe",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "Ventoinhas RGB",
+      "weight": 2.8
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "Produto_53",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Mouse Gamer",
+      "product_b": "Produto_58",
+      "weight": 5.2
+    },
+    {
+      "product_a": "Mousepad Grande",
+      "product_b": "HDMI 2.1",
+      "weight": 4.1
+    },
+    {
+      "product_a": "Mousepad Grande",
+      "product_b": "DisplayPort",
+      "weight": 9.9
+    },
+    {
+      "product_a": "Mousepad Grande",
+      "product_b": "Hub USB-C",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Mousepad Grande",
+      "product_b": "SSD NVMe",
+      "weight": 4.7
+    },
+    {
+      "product_a": "Webcam 4K",
+      "product_b": "DisplayPort",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Webcam 4K",
+      "product_b": "SSD NVMe",
+      "weight": 1.0
+    },
+    {
+      "product_a": "Webcam 4K",
+      "product_b": "Gabinete Gaming",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Webcam 4K",
+      "product_b": "Produto_55",
+      "weight": 4.1
+    },
+    {
+      "product_a": "Webcam 4K",
+      "product_b": "Produto_59",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Microfone Condensador",
+      "product_b": "HDMI 2.1",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Microfone Condensador",
+      "product_b": "DisplayPort",
+      "weight": 1.3
+    },
+    {
+      "product_a": "Microfone Condensador",
+      "product_b": "SSD NVMe",
+      "weight": 7.7
+    },
+    {
+      "product_a": "Microfone Condensador",
+      "product_b": "Ventoinhas RGB",
+      "weight": 3.0
+    },
+    {
+      "product_a": "Microfone Condensador",
+      "product_b": "Produto_53",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Interface Áudio",
+      "product_b": "HDMI 2.1",
+      "weight": 6.9
+    },
+    {
+      "product_a": "Interface Áudio",
+      "product_b": "DisplayPort",
+      "weight": 3.7
+    },
+    {
+      "product_a": "Interface Áudio",
+      "product_b": "Adaptador USB-C",
+      "weight": 9.5
+    },
+    {
+      "product_a": "Interface Áudio",
+      "product_b": "Produto_59",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Monitor 4K",
+      "product_b": "Produto_54",
+      "weight": 3.2
+    },
+    {
+      "product_a": "Monitor 4K",
+      "product_b": "Produto_55",
+      "weight": 6.8
+    },
+    {
+      "product_a": "Monitor 4K",
+      "product_b": "Produto_58",
+      "weight": 7.5
+    },
+    {
+      "product_a": "Monitor 4K",
+      "product_b": "Produto_59",
+      "weight": 3.4
+    },
+    {
+      "product_a": "HDMI 2.1",
+      "product_b": "Hub USB-C",
+      "weight": 7.9
+    },
+    {
+      "product_a": "HDMI 2.1",
+      "product_b": "Produto_55",
+      "weight": 9.4
+    },
+    {
+      "product_a": "HDMI 2.1",
+      "product_b": "Produto_57",
+      "weight": 10.0
+    },
+    {
+      "product_a": "HDMI 2.1",
+      "product_b": "Produto_59",
+      "weight": 6.4
+    },
+    {
+      "product_a": "HDMI 2.1",
+      "product_b": "Produto_60",
+      "weight": 9.2
+    },
+    {
+      "product_a": "DisplayPort",
+      "product_b": "Produto_55",
+      "weight": 9.8
+    },
+    {
+      "product_a": "Adaptador USB-C",
+      "product_b": "SSD NVMe",
+      "weight": 2.3
+    },
+    {
+      "product_a": "Adaptador USB-C",
+      "product_b": "Produto_54",
+      "weight": 4.0
+    },
+    {
+      "product_a": "Hub USB-C",
+      "product_b": "Produto_53",
+      "weight": 8.2
+    },
+    {
+      "product_a": "Hub USB-C",
+      "product_b": "Produto_54",
+      "weight": 7.5
+    },
+    {
+      "product_a": "Hub USB-C",
+      "product_b": "Produto_59",
+      "weight": 1.3
+    },
+    {
+      "product_a": "SSD NVMe",
+      "product_b": "Produto_55",
+      "weight": 7.4
+    },
+    {
+      "product_a": "SSD NVMe",
+      "product_b": "Produto_56",
+      "weight": 5.6
+    },
+    {
+      "product_a": "Gabinete Gaming",
+      "product_b": "Produto_53",
+      "weight": 6.0
+    },
+    {
+      "product_a": "Gabinete Gaming",
+      "product_b": "Produto_54",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Gabinete Gaming",
+      "product_b": "Produto_57",
+      "weight": 8.3
+    },
+    {
+      "product_a": "Ventoinhas RGB",
+      "product_b": "Pasta Térmica",
+      "weight": 1.9
+    },
+    {
+      "product_a": "Ventoinhas RGB",
+      "product_b": "Produto_53",
+      "weight": 2.7
+    },
+    {
+      "product_a": "Pasta Térmica",
+      "product_b": "Produto_54",
+      "weight": 7.2
+    },
+    {
+      "product_a": "Pasta Térmica",
+      "product_b": "Produto_59",
+      "weight": 4.4
+    },
+    {
+      "product_a": "Produto_53",
+      "product_b": "Produto_54",
+      "weight": 1.1
+    },
+    {
+      "product_a": "Produto_53",
+      "product_b": "Produto_55",
+      "weight": 5.5
+    },
+    {
+      "product_a": "Produto_53",
+      "product_b": "Produto_60",
+      "weight": 5.8
+    },
+    {
+      "product_a": "Produto_54",
+      "product_b": "Produto_55",
+      "weight": 2.9
+    },
+    {
+      "product_a": "Produto_54",
+      "product_b": "Produto_59",
+      "weight": 1.7
+    },
+    {
+      "product_a": "Produto_55",
+      "product_b": "Produto_58",
+      "weight": 9.4
+    },
+    {
+      "product_a": "Produto_57",
+      "product_b": "Produto_58",
+      "weight": 2.5
+    },
+    {
+      "product_a": "Produto_57",
+      "product_b": "Produto_59",
+      "weight": 8.5
+    }
+  ]
+}
